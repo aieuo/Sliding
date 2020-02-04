@@ -8,7 +8,7 @@ use pocketmine\event\player\PlayerToggleSneakEvent;
 use pocketmine\event\player\PlayerToggleSprintEvent;
 use pocketmine\math\Vector3;
 
-class Main extends PluginBase implements Listener  {
+class Main extends PluginBase implements Listener {
 
     /** @var int[] */
     private $sprintTicks = [];
